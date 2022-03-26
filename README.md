@@ -1,2 +1,2 @@
-# batu-gunting-kertas
-🕹️ Simple rock paper scissors game
+# Batu Gunting Kertas
+Simple rock paper scissors game
