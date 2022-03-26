@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-width: 320px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h1 {
+    padding: 20px 0;
+    text-align: center;
+}
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.game .result {
+    height: 200px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 2px 2px 10px #888;
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game .result h3 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.game .result h3 span {
+    font-size: 30px;
+    margin: 0 10px;
+}
+.game .choices {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.game .choice {
+    font-size: 60px;
+    padding: 30px;
+    box-shadow: 2px 2px 10px #888;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+}
+.game .choice:hover {
+    background: rgba(128, 128, 128, 0.05);
+    transform: scale(1.2);
+}
